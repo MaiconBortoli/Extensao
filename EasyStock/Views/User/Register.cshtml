@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+@model EasyStock.Models.User
+<head>
+    <title>EasyStock - Cadastro</title>
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<div class="container">
+    <div class="form-container">
+        <div class="navbar-brand-a">
+            <i class="fas fa-box-open me-2"></i>EasyStock
+        </div>
+        <h2>Cadastro</h2>
+        <form asp-action="Register" method="post">
+            @Html.AntiForgeryToken()
+            <div class="mb-3">
+                <input asp-for="Username" type="email" class="form-control" placeholder="Email" required />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <input asp-for="Password" type="password" class="form-control" placeholder="Senha" required />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+        <div class="text-center">
+            <p>Já tem uma conta? <a href="@Url.Action("Login", "User")">Faça Login</a></p>
+        </div>
+    </div>
+</div>
+

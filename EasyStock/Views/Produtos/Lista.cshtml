@@ -1,0 +1,51 @@
+﻿@model IEnumerable<EasyStock.Models.Produto>
+
+<section class="product-list-container">
+    <div class="product-list-header">
+        <span>Nome do Produto</span>
+        <span>Quantidade</span>
+        <span>Preço</span>
+        <span>Ações</span>
+    </div>
+
+    @foreach (var produto in Model)
+    {
+        <div class="product-item" data-id="@produto.Id">
+            <span>@produto.Nome</span>
+            <span>@produto.Quantidade</span>
+            <span>@produto.Preco.ToString("C2")</span>
+                <span style="display: flex; gap: 10px;">
+                    <!-- Link para editar produto -->
+                    <a href="@Url.Action("Editar", "Produtos", new { id = produto.Id })" class="edit-btn">Editar</a>
+                <form method="post" asp-action="Excluir" asp-route-id="@produto.Id" style="display:inline;">
+                    <button type="submit" class="delete-btn">Excluir</button>
+                </form>
+
+                </span>
+
+        </div>
+
+        <!-- Descrição do produto que ficará oculta inicialmente -->
+        <div class="product-description" id="desc-@produto.Id">
+            <p>@produto.Descricao</p>
+        </div>
+    }
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const items = document.querySelectorAll('.product-item');
+        items.forEach(item => {
+            item.addEventListener('click', function () {
+                const id = item.getAttribute('data-id');
+                const description = document.getElementById('desc-' + id);
+
+                if (description.style.display === 'none' || description.style.display === '') {
+                    description.style.display = 'block'; // Exibe a descrição
+                } else {
+                    description.style.display = 'none'; // Oculta a descrição
+                }
+            });
+        });
+    });
+</script>

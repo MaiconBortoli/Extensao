@@ -53,7 +53,7 @@ Com uma interface amigável e responsiva, o sistema atende diferentes tipos de u
 
 ---
 
-## 📥 Installation Guide
+## 📥 Guia de Instalação
 
 1. Clone o repositório:
 ```bash

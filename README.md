@@ -1,34 +1,68 @@
-# Extensão
-Projeto de Extensão ll - Desenvolvimento
+# 🧠 EasyStock
 
-Nome do Aplicativo:
-EasyStock
+EasyStock é uma aplicação web desenvolvida com o objetivo de simplificar o gerenciamento de estoque para pequenas e médias empresas. A plataforma oferece uma forma prática, intuitiva e eficiente de controlar produtos, ajudando na organização e na tomada de decisões.
 
-Tipo de Aplicação:
-Aplicação Web
+---
 
-O objetivo do EasyStock é fornecer uma solução simples e eficiente para o gerenciamento de estoque, permitindo que pequenas e médias empresas controlem seus produtos de forma organizada e intuitiva. O aplicativo visa:
+## 📌 About the Project
 
-Facilitar o Controle de Estoque:
+O EasyStock foi desenvolvido como parte do **Projeto de Extensão II**, com foco em criar uma solução acessível para o controle de estoque. A aplicação permite que usuários gerenciem seus produtos de forma simples, promovendo organização e eficiência no dia a dia.
 
-  - Cadastrar, editar e remover produtos de forma rápida e fácil.
+Com uma interface amigável e responsiva, o sistema atende diferentes tipos de usuários e dispositivos, tornando o gerenciamento mais ágil e confiável.
 
-  - Manter um registro atualizado de quantidades.
+---
 
-Melhorar a Produtividade:
+## 🚀 Features
 
-  - Reduzir o tempo gasto com planilhas manuais ou sistemas complexos.
+- ✅ Cadastro, edição e remoção de produtos  
+- 📦 Controle de quantidade em estoque  
+- 📊 Registro atualizado de informações  
+- ⚡ Interface simples e intuitiva  
+- 📱 Responsivo (desktop e mobile)  
+- 📈 Auxílio na tomada de decisões  
+- 🗂️ Organização eficiente de produtos  
 
-  - Oferecer uma interface amigável e acessível.
+---
 
-Promover a Organização:
+## 🎯 Objetivos
 
-  - Evitar perdas e excessos de produtos.
+### 📦 Facilitar o Controle de Estoque
+- Permitir o gerenciamento rápido de produtos  
+- Manter informações sempre atualizadas  
 
-  - Facilitar a tomada de decisões com base em dados precisos.
+### ⚡ Melhorar a Produtividade
+- Reduzir o uso de planilhas manuais  
+- Simplificar processos complexos  
 
-Ser Acessível:
+### 🗂️ Promover a Organização
+- Evitar perdas e excessos  
+- Garantir melhor controle dos itens  
 
-  - Funcionar como uma aplicação web, sem necessidade de instalação.
+### 🌐 Ser Acessível
+- Aplicação 100% web (sem necessidade de instalação)  
+- Compatível com dispositivos móveis e desktops  
 
-  - Ser compatível com dispositivos móveis e desktops.
+---
+
+## 🛠️ Tech Stack
+
+- 🌐 ASP.NET Core MVC (.NET 8)  
+- 🗄️ MySQL  
+- 💻 HTML, CSS, JavaScript  
+- ⚙️ Entity Framework Core  
+
+---
+
+## 📥 Installation Guide
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/MaiconBortoli/Extensao.git
+
+2. Configure o banco de dados
+```bash
+--Crie o banco no MySQL
+--Configure a string de conexão no appsettings.json
+
+3. Execute o projeto
+dotnet rundotnet run

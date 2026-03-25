@@ -6,7 +6,7 @@ EasyStock é uma aplicação web desenvolvida com o objetivo de simplificar o ge
 
 ## 📌 About the Project
 
-O EasyStock foi desenvolvido como parte do **Projeto de Extensão II**, com foco em criar uma solução acessível para o controle de estoque. A aplicação permite que usuários gerenciem seus produtos de forma simples, promovendo organização e eficiência no dia a dia.
+O EasyStock foi desenvolvido como parte do **Projeto de Extensão **, com foco em criar uma solução acessível para o controle de estoque. A aplicação permite que usuários gerenciem seus produtos de forma simples, promovendo organização e eficiência no dia a dia.
 
 Com uma interface amigável e responsiva, o sistema atende diferentes tipos de usuários e dispositivos, tornando o gerenciamento mais ágil e confiável.
 
@@ -59,10 +59,4 @@ Com uma interface amigável e responsiva, o sistema atende diferentes tipos de u
 ```bash
 git clone https://github.com/MaiconBortoli/Extensao.git
 
-2. Configure o banco de dados
-```bash
---Crie o banco no MySQL
---Configure a string de conexão no appsettings.json
 
-3. Execute o projeto
-dotnet rundotnet run

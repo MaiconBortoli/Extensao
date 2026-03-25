@@ -44,7 +44,7 @@ Com uma interface amigável e responsiva, o sistema atende diferentes tipos de u
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tecnologias
 
 - 🌐 ASP.NET Core MVC (.NET 8)  
 - 🗄️ MySQL  
@@ -61,8 +61,8 @@ git clone https://github.com/MaiconBortoli/Extensao.git
 ```
 
 2. Configure o banco de dados:
--Crie o banco no **MySQL**
--Configure a string de conexão no **appsettings.json**
+- Crie o banco no **MySQL**
+- Configure a string de conexão no **appsettings.json**
 
 3. Execute o projeto:
 ```bash

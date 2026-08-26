@@ -68,7 +68,8 @@ git clone https://github.com/MaiconBortoli/Extensao.git
 ```bash
 dotnet run
 ```
-
+## https://apps.unifil.tech/posts/easystock/
+</br> 
 ## 👤 Autor
 
 Desenvolvido por **Maicon** — Estudante de Engenharia de Software na UniFil, Londrina/PR.

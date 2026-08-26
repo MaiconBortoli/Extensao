@@ -68,3 +68,9 @@ git clone https://github.com/MaiconBortoli/Extensao.git
 ```bash
 dotnet run
 ```
+
+## 👤 Autor
+
+Desenvolvido por **Maicon** — Estudante de Engenharia de Software na UniFil, Londrina/PR.
+
+[![GitHub](https://img.shields.io/badge/GitHub-MaiconB0rtoli-181717?style=flat&logo=github)](https://github.com/MaiconB0rtoli)

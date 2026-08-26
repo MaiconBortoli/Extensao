@@ -1,4 +1,4 @@
-# 🧠 EasyStock
+# 📦 EasyStock
 
 EasyStock é uma aplicação web desenvolvida com o objetivo de simplificar o gerenciamento de estoque para pequenas e médias empresas. A plataforma oferece uma forma prática, intuitiva e eficiente de controlar produtos, ajudando na organização e na tomada de decisões.
 

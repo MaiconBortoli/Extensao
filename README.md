@@ -1,19 +1,15 @@
 # 📦 EasyStock
-
 EasyStock é uma aplicação web desenvolvida com o objetivo de simplificar o gerenciamento de estoque para pequenas e médias empresas. A plataforma oferece uma forma prática, intuitiva e eficiente de controlar produtos, ajudando na organização e na tomada de decisões.
 
----
+
 
 ## 📌 Sobre o projeto
-
-O EasyStock foi desenvolvido como parte do **Projeto de Extensão **, com foco em criar uma solução acessível para o controle de estoque. A aplicação permite que usuários gerenciem seus produtos de forma simples, promovendo organização e eficiência no dia a dia.
-
+O EasyStock foi desenvolvido como parte do **Projeto de Extensão**, com foco em criar uma solução acessível para o controle de estoque. A aplicação permite que usuários gerenciem seus produtos de forma simples, promovendo organização e eficiência no dia a dia.
 Com uma interface amigável e responsiva, o sistema atende diferentes tipos de usuários e dispositivos, tornando o gerenciamento mais ágil e confiável.
 
----
+
 
 ## 🚀 Funcionalidades 
-
 - ✅ Cadastro, edição e remoção de produtos  
 - 📦 Controle de quantidade em estoque  
 - 📊 Registro atualizado de informações  
@@ -22,10 +18,9 @@ Com uma interface amigável e responsiva, o sistema atende diferentes tipos de u
 - 📈 Auxílio na tomada de decisões  
 - 🗂️ Organização eficiente de produtos  
 
----
+
 
 ## 🎯 Objetivos
-
 ### 📦 Facilitar o Controle de Estoque
 - Permitir o gerenciamento rápido de produtos  
 - Manter informações sempre atualizadas  
@@ -42,36 +37,40 @@ Com uma interface amigável e responsiva, o sistema atende diferentes tipos de u
 - Aplicação 100% web (sem necessidade de instalação)  
 - Compatível com dispositivos móveis e desktops  
 
----
+
 
 ## 🛠️ Tecnologias
-
 - 🌐 ASP.NET Core MVC (.NET 8)  
 - 🗄️ MySQL  
 - 💻 HTML, CSS, JavaScript  
 - ⚙️ Entity Framework Core  
 
----
+
 
 ## 📥 Guia de Instalação
-
 1. Clone o repositório:
 ```bash
 git clone https://github.com/MaiconBortoli/Extensao.git
 ```
 
 2. Configure o banco de dados:
-- Crie o banco no **MySQL**
-- Configure a string de conexão no **appsettings.json**
+   - Crie o banco no **MySQL**
+   - Configure a string de conexão no **appsettings.json**
 
 3. Execute o projeto:
 ```bash
 dotnet run
 ```
-## https://apps.unifil.tech/posts/easystock/
-</br> 
-## 👤 Autor
 
+
+
+## 🔗 Acesse o projeto
+
+[![EasyStock](https://img.shields.io/badge/Acessar%20EasyStock-apps.unifil.tech-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://apps.unifil.tech/posts/easystock/)
+
+
+
+## 👤 Autor
 Desenvolvido por **Maicon** — Estudante de Engenharia de Software na UniFil, Londrina/PR.
 
 [![GitHub](https://img.shields.io/badge/GitHub-MaiconB0rtoli-181717?style=flat&logo=github)](https://github.com/MaiconB0rtoli)
